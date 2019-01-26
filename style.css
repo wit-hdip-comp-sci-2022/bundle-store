@@ -53,3 +53,17 @@ p {
   border-width: 1px;
   border-style: dashed;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 5% 55% 20% 5%;
+  grid-gap: 5%;
+}
+
+#maincontent {
+  grid-column-start: 2;
+}
+
+#sidebar {
+  grid-column-start: 3;
+}
