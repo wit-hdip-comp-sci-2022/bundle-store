@@ -13,6 +13,7 @@
 #navigation {
   grid-column-start: 2;
   text-align: center;
+  border-bottom: 1px solid black;
 }
 
 #maincontent {
