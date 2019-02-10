@@ -1,3 +1,6 @@
+@import url("grid.css");
+@import url("image.css");
+
 body {
   font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: small;
@@ -35,14 +38,14 @@ p {
   border-style: solid;
 
   background-color: #a7cece;
-  background-image: url(images/background.gif);
+  background-image: url(../images/background.gif);
   background-repeat: no-repeat;
   background-position: left;
 
   margin: 30px;
   padding: 25px;
   padding-left: 80px;
-  margin-right: 150px;
+  margin-right: 50px;
 
   line-height: 1.9em;
   font-style: italic;
@@ -54,27 +57,7 @@ p {
   border-style: dashed;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 5% 55% 20% 5%;
-  grid-gap: 5%;
-}
 
-#maincontent {
-  grid-column-start: 2;
-}
 
-#sidebar {
-  grid-column-start: 3;
-}
 
-.sidebar-img {
-  width:200px;
-  display: block;
-}
 
-.banner-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}

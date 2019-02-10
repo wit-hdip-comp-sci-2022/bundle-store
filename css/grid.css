@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-columns: 5% 88% 5%;
+  grid-gap: 1%;
+}
+
+#header {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  text-align: center;
+}
+
+#navigation {
+  grid-column-start: 2;
+  text-align: center;
+}
+
+#maincontent {
+  grid-column-start: 2;
+  display: grid;
+  grid-template-columns: 70% 27%;
+  grid-gap: 3%;
+}
+
+#primary {
+  grid-column-start: 1;
+}
+
+#secondary {
+  grid-column-start: 2;
+}
+
+#footer {
+  grid-column-start: 2;
+}
