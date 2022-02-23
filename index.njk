@@ -8,9 +8,7 @@
   <body>
     <img src="/images/banner.png" class="large-centre-img">
     <div class="container">
-      <div id="header">
-        <h1>Welcome to the App Bundle Store</h1>
-      </div>
+      {% include "header.njk" %}
       <div id="navigation">
         <ul id="menu">
           <li class="active"><a href="/">Home</a></li>
@@ -62,11 +60,7 @@
             each, one new per day, for the days to come. </p>
         </div>
       </div>
-      <div id="footer">
-        <p>
-          Contact us at : bundle@store.com, or visit us: <a href="directions.html"> directions </a>
-        </p>
-      </div>
+      {% include "footer.njk" %}
     </div>
   </body>
 </html>
