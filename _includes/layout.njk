@@ -7,17 +7,17 @@
   </head>
   <body>
     <img src="/images/banner.png" class="large-centre-img">
-    <div class="container">
+    <main class="container">
       {% include "header.njk" %}
-      <div id="maincontent">
-        <div id="primary">
+      <section id="maincontent">
+        <section id="primary">
           {{ content | safe }}
-        </div>
-        <div id="secondary">
+        </section>
+        <aside id="secondary">
           {% include "sidebar.njk" %}
-        </div>
-      </div>
+        </aside>
+      </section>
       {% include "footer.njk" %}
-    </div>
+    </main>
   </body>
 </html>
