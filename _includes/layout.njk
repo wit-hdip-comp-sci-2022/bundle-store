@@ -11,6 +11,7 @@
       {% include "header.njk" %}
       <section id="maincontent">
         <section id="primary">
+          {% include "nav.njk" %}      
           {{ content | safe }}
         </section>
         <aside id="secondary">
