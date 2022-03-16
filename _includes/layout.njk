@@ -3,18 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Bundle APP Store</title>
-    <link rel="stylesheet" href="/css/home.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.8/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.8/dist/semantic.min.js"></script>
   </head>
   <body>
     <img src="/images/banner.png" class="large-centre-img">
-    <main class="container">
+    <main>
       {% include "header.njk" %}
-      <section id="maincontent">
-        <section id="primary">
+      <section>
+        <section>
           {% include "nav.njk" %}      
           {{ content | safe }}
         </section>
-        <aside id="secondary">
+        <aside>
           {% include "sidebar.njk" %}
         </aside>
       </section>
